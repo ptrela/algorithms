@@ -20,13 +20,14 @@ class BubbleSort
         end
 
         i += 1
-        puts @array.join(", ")
       end
+
+      puts @array.join(", ")
     end
   end
 end
 
-my_array = [64, 34, 25, 12, 22, 11, 90]
+my_array = [5, 3, 8, 4, 2]
 
 BubbleSort.new(my_array).run
 
